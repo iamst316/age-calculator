@@ -3,6 +3,12 @@ function calculate(){
     let date = document.getElementById('date').value;
     let month = document.getElementById('month').value;
     let year = document.getElementById('year').value;
+    if(year==NaN||date==NaN||month==NaN){
+        alert("Enter Correct Details");
+        
+        
+    }
+    
     date = parseInt(date);
     month = parseInt(month);
     year = parseInt(year);
@@ -16,6 +22,7 @@ function calculate(){
     // console.log(warningdate)
     if(warningdate||warningmonth||warningyear||year==NaN||date==NaN||month==NaN){
         alert("Enter Correct Details");
+        
         
     }
     

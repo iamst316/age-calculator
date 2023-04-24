@@ -1,7 +1,77 @@
 *{
     background-color: skyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    border: 2px solid red;
+    margin: auto;
+    width: 60%;
+    position: relative;
+    top: 130px;
+    background-color: white;
+    min-height: 300px;
+}
+#main-title{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    
+    border-bottom: 2px solid gray;
+}
+#work-area{
+    margin: auto;
+    width: 75%;
+    background-color: white;
+
+}
+table,td,button,input{
+    background-color: white;
+    
+}
+table{
+    position: relative;
+    left: 80px;
+}
+#headers{
+    font-size: 1.3rem;
+    text-align: center;
+}
+input{
+    width: 125px;
+    height: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+
 }
 
 #submit{
+    width: 409px;
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#submit:hover{
+    width: 409px;
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: yellow;
+    color: rgb(6, 51, 6);
+    box-shadow: 4px 4px rgb(1, 46, 1);
+}
+
+#warning-date,#warning-month,#warning-year{
+    
+    background-color: white;
+    color: red;
+}
+
+#result{
+    
+    background-color: white;
     
 }
